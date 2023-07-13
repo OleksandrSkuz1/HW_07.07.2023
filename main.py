@@ -35,7 +35,7 @@ if __name__ == '__main__':
     #     print("Ви вибрали -Неділя")
 
 
-        # Завдання 2
+        # ЗАВДАННЯ 2
         # Користувач вводить із клавіатури номер місяця (1-12).
         # Необхідно вивести на екран назву місяця. Наприклад, якщо 1, то на екрані напис "січень", 2 — "лютий" і т.д.
 
@@ -75,6 +75,36 @@ if __name__ == '__main__':
     #
     # elif month == 12:
     #     print("Ви обрали: Грудень")
+
+
+    # ЗАВДАНН 3
+    # Користувач вводить із клавіатури число. Якщо число більше нуля, потрібно вивести напис "Number is positive",
+    # якщо менше нуля — "Number is negative", якщо дорівнює нулю — "Number is equal to zero".
+
+    # number = int(input("Введіть число: "))
+    # if number > 0:
+    #     print("Number is positive")
+    # elif number < 0:
+    #     print(Number is negative)
+    # elif number == 0:
+    #     print("Number is equal to zero")
+
+
+    # ЗАВДАННЯ 4
+    # Користувач вводить два числа.
+    # Необхідно визначити, чи ці числа є рівними і, якщо ні, вивести їх на екран у порядку зростання.
+
+    # NumberOne = int(input("Введіть перше число: "))
+    # NumberTwo = int(input("Введіть друге число: "))
+    # i = int(input("Введіть число і: "))
+    #
+    # if NumberOne == i and NumberTwo == i:
+    #     print(f"Числа є рівними <і> та мають наступні значення: ", NumberOne, NumberTwo)
+    # elif NumberOne != i and NumberTwo != i and NumberOne < NumberTwo:
+    #     print("Числа в порядку зростання: ",NumberOne, NumberTwo)
+    # elif NumberOne != i and NumberTwo != i and NumberOne > NumberTwo:
+    #     print("Числа в порядку зростання: ", NumberTwo, NumberOne)
+
 
 
 
